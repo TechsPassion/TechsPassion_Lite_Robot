@@ -10,7 +10,7 @@
 #include "secrets.h"  // WIFI_SSID / WIFI_PASSWORD
 
 // -----------------------------------------
-// PINS (see HANDOVER_AI.md before changing any of these)
+// PINS (see "Wiring" in README.md before changing any of these)
 // -----------------------------------------
 #define PWDN_GPIO_NUM    -1
 #define RESET_GPIO_NUM   -1
