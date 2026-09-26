@@ -1,0 +1,150 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 860" width="1280" height="860" role="img" aria-label="Wiring diagram for the TechsPassion Lite Robot">
+<title>TechsPassion Lite Robot wiring diagram</title>
+<rect width="1280" height="860" fill="#ffffff"/>
+<text x="640.0" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle" fill="#111827">TechsPassion Lite Robot: Wiring Diagram</text>
+<text x="640.0" y="68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="middle" fill="#4b5563">Signal wires as defined in TechsPassion_Lite_Robot.ino · power notes below</text>
+<rect x="250" y="110" width="210" height="480" rx="10" fill="#eff6ff" stroke="#1d4ed8" stroke-width="2"/>
+<text x="355.0" y="136" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="middle" fill="#111827">OSOYOO Model Y v2.0</text>
+<text x="355.0" y="155" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#374151">4-channel motor driver</text>
+<text x="264" y="172" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#2563eb">Channel A header</text>
+<text x="264" y="312" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#7c3aed">Channel B header</text>
+<text x="264" y="452" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start" fill="#dc2626">Power</text>
+<text x="448" y="195" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#2563eb">IN1</text>
+<text x="448" y="227" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#2563eb">IN2</text>
+<text x="448" y="259" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#2563eb">ENA (PWM)</text>
+<text x="448" y="335" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#7c3aed">IN1</text>
+<text x="448" y="367" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#7c3aed">IN2</text>
+<text x="448" y="399" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#7c3aed">ENA (PWM)</text>
+<text x="448" y="475" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#dc2626">5V out</text>
+<text x="448" y="525" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#111827">GND</text>
+<text x="262" y="227" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start" fill="#2563eb">A1 ×2</text>
+<text x="262" y="367" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start" fill="#7c3aed">B1 ×2</text>
+<text x="262" y="545" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="start" fill="#dc2626">VIN</text>
+<rect x="20" y="172" width="180" height="100" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+<text x="110" y="200" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Left motors ×2</text>
+<text x="110" y="222" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#374151">front + rear</text>
+<text x="110" y="246" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#374151">plug into both A1</text>
+<text x="110" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#374151">sockets (AK1, AK2)</text>
+<line x1="200" y1="222" x2="250" y2="222" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+<circle cx="200" cy="222" r="4.5" fill="#2563eb"/>
+<circle cx="250" cy="222" r="4.5" fill="#2563eb"/>
+<rect x="20" y="312" width="180" height="100" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="2"/>
+<text x="110" y="340" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">Right motors ×2</text>
+<text x="110" y="362" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#374151">front + rear</text>
+<text x="110" y="386" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#374151">plug into both B1</text>
+<text x="110" y="402" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#374151">sockets (BK1, BK2)</text>
+<line x1="200" y1="362" x2="250" y2="362" stroke="#7c3aed" stroke-width="3" stroke-linecap="round"/>
+<circle cx="200" cy="362" r="4.5" fill="#7c3aed"/>
+<circle cx="250" cy="362" r="4.5" fill="#7c3aed"/>
+<rect x="20" y="500" width="180" height="80" rx="10" fill="#fef2f2" stroke="#b91c1c" stroke-width="2"/>
+<text x="110" y="530" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">2 × 18650</text>
+<text x="110" y="551" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#374151">Li-ion batteries</text>
+<text x="110" y="569" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#6b7280">(battery holder)</text>
+<line x1="200" y1="540" x2="250" y2="540" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+<circle cx="200" cy="540" r="4.5" fill="#dc2626"/>
+<circle cx="250" cy="540" r="4.5" fill="#dc2626"/>
+<rect x="600" y="110" width="250" height="480" rx="10" fill="#1f2937" stroke="#111827" stroke-width="2"/>
+<text x="725.0" y="136" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" text-anchor="middle" fill="#ffffff">ESP32-S3-CAM</text>
+<text x="725.0" y="155" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#d1d5db">N16R8 · OV3660 / OV2640 camera</text>
+<text x="614" y="195" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#ffffff">GPIO 38</text>
+<line x1="460" y1="190" x2="600" y2="190" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+<circle cx="460" cy="190" r="4.5" fill="#2563eb"/>
+<circle cx="600" cy="190" r="4.5" fill="#2563eb"/>
+<text x="614" y="227" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#ffffff">GPIO 39</text>
+<line x1="460" y1="222" x2="600" y2="222" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+<circle cx="460" cy="222" r="4.5" fill="#2563eb"/>
+<circle cx="600" cy="222" r="4.5" fill="#2563eb"/>
+<text x="614" y="259" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#ffffff">GPIO 40</text>
+<line x1="460" y1="254" x2="600" y2="254" stroke="#2563eb" stroke-width="3" stroke-linecap="round"/>
+<circle cx="460" cy="254" r="4.5" fill="#2563eb"/>
+<circle cx="600" cy="254" r="4.5" fill="#2563eb"/>
+<text x="614" y="335" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#ffffff">GPIO 47</text>
+<line x1="460" y1="330" x2="600" y2="330" stroke="#7c3aed" stroke-width="3" stroke-linecap="round"/>
+<circle cx="460" cy="330" r="4.5" fill="#7c3aed"/>
+<circle cx="600" cy="330" r="4.5" fill="#7c3aed"/>
+<text x="614" y="367" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#ffffff">GPIO 48</text>
+<line x1="460" y1="362" x2="600" y2="362" stroke="#7c3aed" stroke-width="3" stroke-linecap="round"/>
+<circle cx="460" cy="362" r="4.5" fill="#7c3aed"/>
+<circle cx="600" cy="362" r="4.5" fill="#7c3aed"/>
+<text x="614" y="399" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#ffffff">GPIO 21</text>
+<line x1="460" y1="394" x2="600" y2="394" stroke="#7c3aed" stroke-width="3" stroke-linecap="round"/>
+<circle cx="460" cy="394" r="4.5" fill="#7c3aed"/>
+<circle cx="600" cy="394" r="4.5" fill="#7c3aed"/>
+<text x="614" y="475" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#ffffff">5V</text>
+<line x1="460" y1="470" x2="600" y2="470" stroke="#dc2626" stroke-width="3" stroke-linecap="round"/>
+<circle cx="460" cy="470" r="4.5" fill="#dc2626"/>
+<circle cx="600" cy="470" r="4.5" fill="#dc2626"/>
+<text x="614" y="525" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#ffffff">GND</text>
+<line x1="460" y1="520" x2="600" y2="520" stroke="#111827" stroke-width="3" stroke-linecap="round"/>
+<circle cx="460" cy="520" r="4.5" fill="#111827"/>
+<circle cx="600" cy="520" r="4.5" fill="#111827"/>
+<text x="836" y="195" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#ffffff">GPIO 41</text>
+<line x1="850" y1="190" x2="985" y2="190" stroke="#0d9488" stroke-width="3" stroke-linecap="round"/>
+<circle cx="850" cy="190" r="4.5" fill="#0d9488"/>
+<circle cx="985" cy="190" r="4.5" fill="#0d9488"/>
+<text x="836" y="227" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#ffffff">GPIO 42</text>
+<line x1="850" y1="222" x2="985" y2="222" stroke="#0d9488" stroke-width="3" stroke-linecap="round"/>
+<circle cx="850" cy="222" r="4.5" fill="#0d9488"/>
+<circle cx="985" cy="222" r="4.5" fill="#0d9488"/>
+<text x="836" y="357" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#ffffff">GPIO 14</text>
+<line x1="850" y1="352" x2="985" y2="352" stroke="#ea580c" stroke-width="3" stroke-linecap="round"/>
+<circle cx="850" cy="352" r="4.5" fill="#ea580c"/>
+<circle cx="985" cy="352" r="4.5" fill="#ea580c"/>
+<text x="836" y="471" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#ffffff">GPIO 1</text>
+<line x1="850" y1="466" x2="985" y2="466" stroke="#16a34a" stroke-width="3" stroke-linecap="round"/>
+<circle cx="850" cy="466" r="4.5" fill="#16a34a"/>
+<circle cx="985" cy="466" r="4.5" fill="#16a34a"/>
+<text x="836" y="503" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="end" fill="#ffffff">GPIO 2</text>
+<line x1="850" y1="498" x2="985" y2="498" stroke="#16a34a" stroke-width="3" stroke-linecap="round"/>
+<circle cx="850" cy="498" r="4.5" fill="#16a34a"/>
+<circle cx="985" cy="498" r="4.5" fill="#16a34a"/>
+<text x="725.0" y="548" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#d1d5db">Camera: built-in connector</text>
+<text x="725.0" y="566" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#d1d5db">(GPIO 4–13, 15–18)</text>
+<rect x="985" y="120" width="255" height="150" rx="10" fill="#f0fdfa" stroke="#0f766e" stroke-width="2"/>
+<text x="1112.5" y="144" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">HC-SR04</text>
+<text x="1112.5" y="162" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#4b5563">ultrasonic sensor (on the servo)</text>
+<text x="997" y="195" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#0d9488">TRIG</text>
+<text x="997" y="227" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#0d9488">ECHO</text>
+<text x="1228" y="241" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#374151">VCC → 5V</text>
+<text x="1228" y="258" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#374151">GND → GND</text>
+<rect x="985" y="290" width="255" height="100" rx="10" fill="#fff7ed" stroke="#c2410c" stroke-width="2"/>
+<text x="1112.5" y="314" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">SG90 micro servo</text>
+<text x="1112.5" y="332" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#4b5563">pans the sensor and camera</text>
+<text x="997" y="357" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#ea580c">Signal</text>
+<text x="1228" y="361" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#374151">red → 5V</text>
+<text x="1228" y="378" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#374151">brown → GND</text>
+<rect x="985" y="412" width="255" height="136" rx="10" fill="#f0fdf4" stroke="#15803d" stroke-width="2"/>
+<text x="1112.5" y="436" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle" fill="#111827">SSD1306 OLED</text>
+<text x="1112.5" y="454" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#4b5563">0.96" I²C, address 0x3C</text>
+<text x="997" y="471" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#16a34a">SDA</text>
+<text x="997" y="503" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="start" fill="#16a34a">SCL</text>
+<text x="1228" y="519" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#374151">VCC → 3.3V or 5V</text>
+<text x="1228" y="536" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#374151">GND → GND</text>
+<line x1="20" y1="618" x2="1260" y2="618" stroke="#e5e7eb" stroke-width="2"/>
+<text x="20" y="644" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" text-anchor="start" fill="#111827">Notes</text>
+<circle cx="28" cy="665" r="3.5" fill="#6b7280"/>
+<text x="40" y="670" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2937">Both motors on each side share one channel: the two A1 sockets (left) and the two B1 sockets (right) are wired in parallel inside the driver.</text>
+<circle cx="28" cy="695" r="3.5" fill="#6b7280"/>
+<text x="40" y="700" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2937">The driver is powered by the 18650 batteries (VIN) and supplies 5V to the ESP32. Connect all GNDs together (driver, ESP32, sensor, servo, OLED).</text>
+<circle cx="28" cy="725" r="3.5" fill="#6b7280"/>
+<text x="40" y="730" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2937">HC-SR04 and servo run on 5V. Most SSD1306 OLED modules accept 3.3V or 5V; check yours. The servo's orange wire is the signal.</text>
+<circle cx="28" cy="755" r="3.5" fill="#6b7280"/>
+<text x="40" y="760" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2937">HC-SR04 ECHO outputs 5V, while ESP32-S3 pins are 3.3V. A 1 kΩ / 2 kΩ voltage divider on ECHO is the safe way to connect it.</text>
+<circle cx="28" cy="785" r="3.5" fill="#6b7280"/>
+<text x="40" y="790" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#1f2937">Don't use GPIO 35–37 (PSRAM) or GPIO 43–44 (serial port). A servo on GPIO 44 causes a boot loop.</text>
+<line x1="20" y1="832" x2="48" y2="832" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+<text x="56" y="837" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#374151">Left motors</text>
+<line x1="167.4" y1="832" x2="195.4" y2="832" stroke="#7c3aed" stroke-width="4" stroke-linecap="round"/>
+<text x="203.4" y="837" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#374151">Right motors</text>
+<line x1="322.20000000000005" y1="832" x2="350.20000000000005" y2="832" stroke="#dc2626" stroke-width="4" stroke-linecap="round"/>
+<text x="358.20000000000005" y="837" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#374151">5V / battery +</text>
+<line x1="491.80000000000007" y1="832" x2="519.8000000000001" y2="832" stroke="#111827" stroke-width="4" stroke-linecap="round"/>
+<text x="527.8000000000001" y="837" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#374151">Ground</text>
+<line x1="602.2" y1="832" x2="630.2" y2="832" stroke="#0d9488" stroke-width="4" stroke-linecap="round"/>
+<text x="638.2" y="837" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#374151">Ultrasonic</text>
+<line x1="742.2" y1="832" x2="770.2" y2="832" stroke="#ea580c" stroke-width="4" stroke-linecap="round"/>
+<text x="778.2" y="837" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#374151">Servo</text>
+<line x1="845.2" y1="832" x2="873.2" y2="832" stroke="#16a34a" stroke-width="4" stroke-linecap="round"/>
+<text x="881.2" y="837" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#374151">OLED (I²C)</text>
+<text x="1260" y="837" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#6b7280">© TechsPassion · MIT License</text>
+</svg>

@@ -44,6 +44,8 @@ The printable parts for this robot are on Thingiverse:
 
 ### Wiring
 
+![Wiring diagram: the ESP32-S3-CAM connected to the OSOYOO Model Y motor driver, HC-SR04 sensor, SG90 servo and SSD1306 OLED](images/wiring-diagram.svg)
+
 **Motors**: plug both left motors into the two **A1** sockets and both right motors into the two **B1** sockets. The sockets are paralleled inside the driver, so each side only needs one set of control pins.
 
 | Function | ESP32-S3 GPIO |
