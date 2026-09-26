@@ -192,6 +192,10 @@ This project is provided **"as is"**, without warranty of any kind, express or i
 
 All product names and brands mentioned here belong to their respective owners. This project isn't affiliated with or endorsed by any of them.
 
+## License
+
+Released under the [MIT License](LICENSE). You're free to use, modify and share it, as long as you keep the copyright and license notice. The license's "as is" and no-liability terms apply to the whole project.
+
 ---
 
 Made by **TechsPassion**. Build it, remix it and share what you make!
