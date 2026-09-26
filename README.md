@@ -94,7 +94,7 @@ For reference, here are the pinouts of the two main boards:
 1. Install the [Arduino IDE](https://www.arduino.cc/en/software) (2.x).
 2. Go to **File → Preferences** and add this URL to *Additional boards manager URLs*:
    `https://espressif.github.io/arduino-esp32/package_esp32_index.json`
-3. Open **Tools → Board → Boards Manager** and install **esp32 by Espressif Systems**, version **3.x**. It was tested with 3.3.11. Version 2.x won't compile, because the code uses the 3.x `ledcAttach()` API.
+3. Open **Tools → Board → Boards Manager** and install **esp32 by Espressif Systems**, version **3.x**. It was tested with 3.3.11. Version 2.x isn't supported: the servo code relies on the 3.x LEDC API (`ledcAttach()` and `ledcWrite()` by pin).
 
 ### 2. Libraries
 
@@ -129,10 +129,10 @@ Under **Tools**, select:
 | Setting | Value |
 |---|---|
 | Board | **ESP32S3 Dev Module** |
-| PSRAM | **OPI PSRAM** (required for the camera) |
+| PSRAM | **OPI PSRAM** (needed for full-quality 640×480 video; without it the camera falls back to 320×240) |
 | Flash Size | 16MB (or leave the default) |
 | Partition Scheme | Any scheme with OTA, e.g. the default |
-| USB CDC On Boot | Enabled (to see Serial output over USB) |
+| USB CDC On Boot | Leave **Disabled** (the default) if you connect through the board's **TTL** USB port. Only enable it if you use the **OTG** port and want Serial output there |
 
 ### 5. Upload
 
@@ -145,7 +145,7 @@ Under **Tools**, select:
 2. On a phone or computer on the same network, open that IP, or open **http://techspassion-lite-robot.local**.
 3. Drive with the D-pad, pick a speed, pan the camera, or press **Radar Scan** or **Auto Pilot**. Any direction button takes back manual control.
 
-**Tip:** on a phone, tap the full-screen button on the camera for Drive view. On iPhone, use **Share → Add to Home Screen** to get it without the browser bar.
+**Tip:** on a phone, tap the full-screen button on the camera for Drive view (press **Esc** to leave it on a computer). On iPhone, use **Share → Add to Home Screen** to get it without the browser bar.
 
 ### Hotspot mode
 
@@ -166,9 +166,10 @@ The control page talks to these endpoints on port 80. You can call them from you
 | `/control?cmd=F\|B\|L\|R\|S` | Drive forward / back / left / right / stop. Also cancels Auto Pilot and Radar |
 | `/control?cmd=A` | Start Auto Pilot |
 | `/control?cmd=RDR` | Start a radar scan |
-| `/servo?pos=0..180` | Pan the camera and sensor |
+| `/servo?pos=0..180` | Pan the camera and sensor (manual mode only; ignored during Auto Pilot and Radar) |
 | `/speed?val=0..255` | Motor speed (PWM) |
 | `/status` | JSON telemetry: distance, mode, speed, pan, Wi-Fi signal, radar points… |
+| `/wifi?mode=ap` | Switch to the fallback hotspot right away (a test hook; the robot returns to your home Wi-Fi within about a minute if no phone joins) |
 | `:81/stream` | MJPEG camera stream |
 
 Manual drive commands must be repeated at least every 600 ms, or the robot stops. The control page re-sends them every 200 ms while a button is held.
@@ -200,7 +201,7 @@ It also has no rear sensor when it reverses. Ideas for upgrades:
 
 ## Security note
 
-The control page and OTA updates have no password. Anyone on the same network can drive the robot or upload new firmware to it. That's fine on a home network, but don't expose it to the internet. For OTA, you can add `ArduinoOTA.setPassword("...")` before `ArduinoOTA.begin()` in `setup()`.
+The control page, the Web API and OTA updates have no password. Anyone on the same network can drive the robot, switch it to hotspot mode or upload new firmware to it. That's fine on a home network, but don't expose it to the internet. For OTA, you can add `ArduinoOTA.setPassword("...")` before `ArduinoOTA.begin()` in `setup()`.
 
 ## Disclaimer
 
