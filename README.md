@@ -4,6 +4,12 @@ A Wi-Fi controlled 4WD tank robot built on an **ESP32-S3 camera board**. It serv
 
 No app to install and no cloud. The robot hosts everything itself.
 
+## Watch the video
+
+[![Meet TechsPassion Lite: The Ultra-Budget ESP32 Robot](https://img.youtube.com/vi/lfj8uh1iPEw/maxresdefault.jpg)](https://youtu.be/lfj8uh1iPEw)
+
+▶️ **[Meet TechsPassion Lite: The Ultra-Budget ESP32 Robot](https://youtu.be/lfj8uh1iPEw)** on YouTube
+
 ## Features
 
 - **Live camera stream** (MJPEG on its own server, so video never slows down driving)
