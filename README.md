@@ -28,7 +28,13 @@ No app to install and no cloud. The robot hosts everything itself.
 | HC-SR04 ultrasonic sensor | Mounted on the servo together with the camera |
 | Micro servo (SG90 style) | Pans the sensor and camera |
 | 0.96" SSD1306 I2C OLED (128×64) | Address `0x3C` |
-| Battery pack for the motor driver | |
+| 2 × 18650 Li-ion batteries | Power the motor driver, which also supplies the 5 V for the board |
+| 3D-printed parts | Printable files on [Thingiverse](https://www.thingiverse.com/thing:7414351) |
+
+### 3D-printed parts
+
+The printable parts for this robot are on Thingiverse:
+**[thingiverse.com/thing:7414351](https://www.thingiverse.com/thing:7414351)**
 
 ### Wiring
 
