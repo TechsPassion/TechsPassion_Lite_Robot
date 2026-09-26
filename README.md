@@ -180,6 +180,18 @@ It also has no rear sensor when it reverses. Ideas for upgrades:
 
 The control page and OTA updates have no password. Anyone on the same network can drive the robot or upload new firmware to it. That's fine on a home network, but don't expose it to the internet. For OTA, you can add `ArduinoOTA.setPassword("...")` before `ArduinoOTA.begin()` in `setup()`.
 
+## Disclaimer
+
+This project is provided **"as is"**, without warranty of any kind, express or implied, including but not limited to fitness for a particular purpose. It is a hobby project shared for educational use.
+
+**You build and use it entirely at your own risk.** TechsPassion is not responsible or liable for any damage, injury, loss or other consequences that result from using the code, the wiring information, the 3D-printed parts or any other part of this project. That includes, for example, damaged components, damaged property, or injury from moving parts.
+
+- **Batteries:** 18650 lithium-ion cells can overheat, catch fire or explode if they're shorted, damaged, over-discharged or charged incorrectly. Use protected cells and a proper charger, and never leave the robot charging or running unattended.
+- **Wiring:** double-check every connection before powering on. Wiring mistakes can permanently damage the board and other parts.
+- **Camera and wireless:** you're responsible for using the robot in line with the laws where you live, including privacy laws about recording people and rules for wireless devices.
+
+All product names and brands mentioned here belong to their respective owners. This project isn't affiliated with or endorsed by any of them.
+
 ---
 
 Made by **TechsPassion**. Build it, remix it and share what you make!
