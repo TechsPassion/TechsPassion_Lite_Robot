@@ -64,6 +64,20 @@ The printable parts for this robot are on Thingiverse:
 
 The camera uses the board's built-in connector: GPIO 4-13 and 15-18.
 
+#### Board pinouts
+
+For reference, here are the pinouts of the two main boards:
+
+<p align="center">
+  <img src="images/esp32-s3-cam-pinout.jpg" alt="ESP32-S3-CAM pinout showing every GPIO and its functions" width="720">
+  <br><em>ESP32-S3-CAM pinout (seller product image)</em>
+</p>
+
+<p align="center">
+  <img src="images/osoyoo-model-y-motor-driver.png" alt="OSOYOO Model Y v2.0 motor driver layout showing control headers, power and motor channels" width="620">
+  <br><em>OSOYOO Model Y v2.0 motor driver (image &copy; OSOYOO)</em>
+</p>
+
 > [!WARNING]
 > **Pins to avoid on the ESP32-S3:**
 > - **GPIO 35, 36, 37** are used by the PSRAM. Touching them crashes the board.
@@ -203,6 +217,8 @@ All product names and brands mentioned here belong to their respective owners. T
 ## License
 
 Released under the [MIT License](LICENSE). You're free to use, modify and share it, as long as you keep the copyright and license notice. The license's "as is" and no-liability terms apply to the whole project.
+
+The two board pinout images (`images/esp32-s3-cam-pinout.jpg` and `images/osoyoo-model-y-motor-driver.png`) are third-party product images included for reference. They aren't covered by the MIT License and remain the property of their respective owners.
 
 ---
 
