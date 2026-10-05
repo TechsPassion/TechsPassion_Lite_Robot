@@ -174,6 +174,12 @@ The control page talks to these endpoints on port 80. You can call them from you
 
 Manual drive commands must be repeated at least every 600 ms, or the robot stops. The control page re-sends them every 200 ms while a button is held.
 
+## Program your own robot (Controller mode)
+
+The **TechsPassion app** has a **Controller** mode: a joystick and four buttons (A-D) that work with *any* ESP32 robot you program yourself. The app sends the whole pad state about 10 times a second, `GET /pad?x=-100..100&y=-100..100&b=0..15`, and shows whatever text your robot sends back.
+
+Start with the simple, ready-to-run example in [`examples/TechsPassion_Pad_Starter`](examples/TechsPassion_Pad_Starter): tank drive, a turbo button and messages, with an automatic stop if the phone goes quiet. Add your own ideas in `loop()`.
+
 ## Tuning
 
 All tuning values are at the top of the `.ino` file:
